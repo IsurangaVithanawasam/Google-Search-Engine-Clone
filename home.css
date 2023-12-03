@@ -1,0 +1,235 @@
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+       
+        #header {
+            height: 60px;
+            width: 1024px;
+            /* background-color: #202124; */
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 6px;
+            
+        }
+
+        #icon {
+            width: 317.58px;
+            height: 48px;
+            /* background-color: blue; */
+            position: relative;
+            float: right;
+            display: flex;
+            justify-content: right;
+            padding-left: 32px;
+        }
+
+        .child {
+            width: 100%;
+            height: 100%;
+            /* background-color: green; */
+            flex-flow: row;
+            display: flex;
+            padding: 10px;
+        }
+
+        #gmail{
+            align-self: center;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        #images{
+            align-self: center;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        #apps {
+            align-self: center;
+            cursor: pointer;
+        }
+
+        #sign-in{
+            font-weight: 500;
+            line-height: 16px;
+            margin-right: 8px;
+            margin-left: 8px;
+            min-width: 96px;
+            padding: 9px 23px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 4px;
+            background: #1a73e8;
+            &:hover {
+                background-color: #1c6ac9;
+            }    
+            border: 1px solid transparent;
+            align-self: center;
+            -webkit-text-fill-color: white;
+            width: 48px;
+            cursor: pointer;
+            position: relative;
+            
+        }
+        
+        #logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 80vh;
+        }
+
+        .logo-google{
+            margin-top: 70px;
+            
+        }
+
+        #search {
+            /* background-color: yellow; */
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #search-bar {
+            display: flex;
+            position: relative;
+            min-height: 44px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            margin: 0 auto;
+            width: 638px;
+            max-width: 584px;
+            font-size: 15px;
+            padding: 5px 87px 5px 40px;
+            /* background-color: green; */
+            &:focus {
+                outline: 0;
+            }
+            &:hover {
+                box-shadow: 1px 1px lightgray;
+            } 
+        }
+
+        #search-icon {
+            scale: 0.85;
+            color: #9aa0a6;
+            position: absolute;
+            width: 20px;
+            height: 46px;
+            left: 14px;
+            top: 11px;
+        }
+
+        #image-icon {
+            scale: 1.3;
+            position: absolute;
+            width: 20px;
+            height: 46px;
+            left: 535px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        #voice-icon {
+            scale: 1.1;
+            position: absolute;
+            width: 20px;
+            height: 21px;
+            left: 500px;
+            top: 14px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+        #btn-wrapper {
+            padding-top: 18px;
+            align-items: center;
+        }
+
+        #btn-google-search, #btn-feeling-lucky {
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            text-align: center;
+            cursor: pointer;
+            border: 0;
+            &:hover {
+                border: 1px  rgb(233, 228, 228) ;
+                border-style: ridge;
+            }
+        }
+
+        #content{
+            height: 520px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            /* background-color: green; */
+        }
+
+        #translate {
+            /* background-color: orange; */
+            position: absolute;
+            color: #4d5156;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+        
+        li {
+            text-align: center;
+            padding: 14px 12px;
+        }
+        
+        footer {
+            width: 100%;
+            background-color: #f2f2f2;
+        }
+        
+        .footer-bar {
+            border-bottom: 1px solid #ddd;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+        }
+        
+        #sri-lanka {
+            color: #202124;
+            padding-left: 13px;
+            font-size: 15px;
+        }
+        
+        #footer-item-1, #footer-item-2 {
+            text-decoration: none;
+            color: #202124;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+
+   
