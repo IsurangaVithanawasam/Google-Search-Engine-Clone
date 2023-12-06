@@ -1,4 +1,4 @@
-Google-Search-Engine-Clone 
+Google-Search-Engine-Clone
 (This was done for academic purposes only.)
 Version 1.0.0
 License
